@@ -8,8 +8,6 @@ a schedule movie seeder that get top rated movies and genres from [themoviedb](h
 
 Please check the official laravel installation guide for server requirements before you start. [Laravel Documentation](https://laravel.com/docs/8.x/installation)
 
-Alternative installation is possible without local dependencies relying on [Docker](#docker). 
-
 Clone the repository
 
     git clone https://github.com/maysaahmed/Movie-Seeder.git
