@@ -1,0 +1,13 @@
+{
+    "name": "MovieSeeder",
+    "alias": "movieseeder",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MovieSeeder\\Providers\\MovieSeederServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
