@@ -57,7 +57,7 @@ class MovieSeederController extends Controller
             if(strpos($key, '|'))
             {
                 $sort = explode('|', $key);
-                if(isset($sort_by[$sort[0]])){
+                if(isset($sort_by[$sort[0]]) && in_array($sort[1], ['desc', 'asc'])){
                     $query->orderBy($sort_by[$sort[0]], $sort[1]);
                 }
             }
